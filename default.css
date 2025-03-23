@@ -1,0 +1,83 @@
+body{
+    background-color:blanchedalmond;
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    font-size: 16 px; 
+}
+
+hr{ 
+    color:rgb(196, 14, 8);
+    height: 10px;
+    width: 50%;  
+    background-color:brown;
+}
+
+a:link{
+    color:rgb(241, 51, 89)
+}
+
+a:visited{
+    color: darkgreen;
+}
+
+p, ul{
+   //font-family:Verdana, Geneva, Tahoma, sans-serif;
+    //font-size: 14px;
+    
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+p, ol{
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100; 
+}
+
+#size{
+    position: absolute; top: 250px; left: 400px;
+    background-color: chocolate;
+    padding: 25px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: floralwhite;
+    opacity: 70%;
+}
+
+#main{
+    background-color: gold;
+    height: 700px;
+    width: 1200px;
+    padding: 25px;
+    position: absolute; top: 50px; left: 50px;
+    background-image: url(graphics/flower.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+#main2{
+    height: 700px;
+    width: 1200px;
+    padding: 25px;
+    position: absolute; top: 50px; left: 5%;
+    background-image: url(graphics/flower.jpg);
+    
+}
+ 
+p{
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100; 
+}

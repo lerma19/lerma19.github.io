@@ -3,62 +3,93 @@ body{
 }
 
 h1{
-    color:rgb(0, 0, 0);
+    color:rgb(244, 244, 244);
     font-size: 16 px; 
+}
+h1{
+      font-family: "Winky Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+
+h2{
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color:rgb(244, 244, 244);
+    color:rgb(244, 244, 244);
+}
+
+h3{
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color:rgb(244, 244, 244);
+    color:rgb(244, 244, 244);
+}
+
+h5{
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color:rgb(244, 244, 244);
 }
 
 hr{ 
-    color:rgb(196, 14, 8);
+    color:rgba(8, 140, 196, 0.363);
     height: 10px;
-    width: 50%;  
-    background-color:brown;
+    width: 500px;  
+    background-color:rgba(39, 136, 200, 0.701);
+}
+
+hr.new2{
+    color:rgba(8, 140, 196, 0.363);
+    height: 10px;
+    width: 50px;  
+    background-color:rgba(39, 136, 200, 0.701);
 }
 
 a:link{
-    color:rgb(241, 51, 89)
+    color:rgb(5, 13, 252)
 }
 
 a:visited{
-    color: darkgreen;
+    color: rgb(233, 200, 13);
 }
 
-p, ul{
-   //font-family:Verdana, Geneva, Tahoma, sans-serif;
-    //font-size: 14px;
-    
-    font-family: "Tektur", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-}
 
-p, ol{
-    font-family: "Tektur", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100; 
-}
 
 #size{
-    position: absolute; top: 250px; left: 400px;
-    background-color: chocolate;
-    padding: 25px;
+    position: absolute; top: 175px; left: 500px;
+    background-color: rgb(39, 175, 238);
+    padding: 15px;
     border-style: ridge;
     border-width: 5px;
     border-color: floralwhite;
+    opacity: 40px;
+    font-size: 20px
+}
+
+
+#size2{
+    position: absolute; top: 40px; left: 520px;
+    background-color: rgba(15, 157, 218, 0);
+    padding: 5px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: rgba(0, 0, 0, 0);
     opacity: 70%;
 }
 
 #main{
-    background-color: gold;
     height: 700px;
     width: 1200px;
     padding: 25px;
-    position: absolute; top: 50px; left: 50px;
+    position: absolute; top: 50px; left: 325px;
     background-image: url(graphics/flower.jpg);
     background-repeat: no-repeat;
     
@@ -68,16 +99,24 @@ p, ol{
     height: 700px;
     width: 1200px;
     padding: 25px;
-    position: absolute; top: 50px; left: 5%;
+    position: absolute; top: 50px; left: 150px;
     background-image: url(graphics/flower.jpg);
     
 }
- 
-p{
-    font-family: "Tektur", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100; 
+
+#main3{
+    height: 700px;
+    width: 1200px;
+    padding: 25px;
+    position: absolute; top: 50px; left: 135px;
+    background-color: black;
 }
+ 
+
+p{
+      font-family: "Winky Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      color:rgb(244, 244, 244);
+    }

@@ -95,6 +95,9 @@ a:visited{
     position: absolute; top: 50px; left: 135px;
     background-color: rgba(18, 73, 125, 0.555);
     background-image: url(graphics/static.png);
+    border-style: ridge;
+    border-width: 40px;
+    border-color: rgb(30, 29, 29);
     background-repeat: no-repeat;
     p{
             font-family: "Winky Sans", sans-serif;

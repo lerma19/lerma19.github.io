@@ -1,5 +1,5 @@
 body{
-    background-color:blanchedalmond;
+    background-color:rgb(0, 0, 0);
 }
 
 h1{
@@ -40,25 +40,19 @@ h5{
 }
 
 hr{ 
-    color:rgba(8, 140, 196, 0.363);
-    height: 10px;
-    width: 500px;  
-    background-color:rgba(39, 136, 200, 0.701);
+    
+    height: 1px;
+    width: 1200px;  
+    background-color:rgba(163, 163, 163, 0);
 }
 
-hr.new2{
-    color:rgba(8, 140, 196, 0.363);
-    height: 10px;
-    width: 50px;  
-    background-color:rgba(39, 136, 200, 0.701);
-}
 
 a:link{
-    color:rgb(5, 13, 252)
+    color: limegreen
 }
 
 a:visited{
-    color: rgb(233, 200, 13);
+    color: limegreen;
 }
 
 
@@ -74,16 +68,6 @@ a:visited{
     font-size: 20px
 }
 
-
-#size2{
-    position: absolute; top: 40px; left: 520px;
-    background-color: rgba(15, 157, 218, 0);
-    padding: 5px;
-    border-style: dotted;
-    border-width: 5px;
-    border-color: rgba(0, 0, 0, 0);
-    opacity: 70%;
-}
 
 #main{
     height: 700px;
@@ -105,11 +89,19 @@ a:visited{
 }
 
 #main3{
-    height: 700px;
+    height: 2150px;
     width: 1200px;
     padding: 25px;
     position: absolute; top: 50px; left: 135px;
-    background-color: black;
+    background-color: rgba(18, 73, 125, 0.555);
+    background-image: url(graphics/static.png);
+    background-repeat: no-repeat;
+    p{
+            font-family: "Winky Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+    }   
 }
  
 
